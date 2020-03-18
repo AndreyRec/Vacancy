@@ -1,0 +1,48 @@
+print("Hi guys!\nI’m looking for a Middle DevOps Engineers in Kyiv and Vinnytsia on the project in HealthCare sphere.\n\nAbout project:\nWorkflow implementation for healthcare based on Cloud infrastructure for secure storage and exchange of information\n")
+
+from pprint import pprint
+requirements = {
+"Title": "DevOps",
+"Level": "Middle/Senior",
+"Experience": "2+ years",
+"OS" : "Linux/",
+"Databases" : "SQL/NoSQL/Elasticsearch",
+"Cloud" : "AWS",
+"Scripting" : "Shell/Bash Perl/Python",
+"GIT" : "GitLab CI/CD/BitBucket"
+}
+
+x = requirements
+pprint(x)
+
+print ("\nWill be a plus\n")
+
+from pprint import pprint
+requirements2 = {
+"FreeBSD/Solaris",
+"Ruby/JS/Groovy or any other",
+"GCP,Azure",
+"Terraform, Consul, Vault, Nomad"
+}
+
+y = requirements2
+pprint(y)
+
+import sys
+
+while True:
+
+answer = input('\nIf this technologies looks familiar for you?\n ')
+
+if answer == 'yes':
+print('Great.Please sent your CV and salary expectation to Andrii.Chyrkov@onseo.biz')
+break
+
+elif answer == 'no':
+print ('Its sad, maybe next time')
+break
+
+else:
+print('Wrong answer.Try again')
+
+print('Thank for your time. Have a nice day')
