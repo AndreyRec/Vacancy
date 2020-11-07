@@ -35,7 +35,7 @@ while True:
 answer = input('\nIf this technologies looks familiar for you?\n ')
 
 if answer == 'yes':
-print('Great.Please sent your CV and salary expectation to Andrii.Chyrkov@onseo.biz')
+print('Great.Please sent your CV and salary expectation to AndriiChyrkov@gmail.com')
 break
 
 elif answer == 'no':
